@@ -1,0 +1,16 @@
+.about-page {
+  padding: 2rem 1rem;
+  max-width: 900px;
+  margin: auto;
+  color: var(--text-color, #111);
+}
+
+.about-content {
+  margin-top: 1rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.about-content p {
+  margin-bottom: 1rem;
+}

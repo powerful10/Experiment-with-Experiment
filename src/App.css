@@ -1,0 +1,347 @@
+/* App.css - header & navigation styles (dark theme by default) */
+.highlight-card{
+  background-color: var(--card-bg);
+}
+
+.highlight-button{
+  background-color: var(--card-bg);
+  color: var(--button-text);
+}
+
+/* ===== HEADER & NAVBAR ===== */
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: linear-gradient(90deg, #1e3a8a, #2563eb, #1d4ed8);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.app-logo {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+.app-title {
+  font-size: 1.6rem;
+  color: #ffffff;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+}
+
+/* nav */
+.app-nav {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+
+.app-nav a {
+  color: #f1f5f9;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+}
+
+.app-nav a:hover {
+  background: rgba(255,255,255,0.15);
+  color: #ffffff;
+}
+
+/* dropdown wrapper - contains both button and submenu */
+.dropdown {
+  position: relative;
+}
+
+/* drop button */
+.dropbtn {
+  background: none;
+  border: none;
+  color: #f1f5f9;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.4rem 0.6rem;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 6px;
+  transition: all 0.25s ease;
+}
+
+.dropbtn:hover {
+  background: rgba(255,255,255,0.15);
+  color: #ffffff;
+}
+
+/* arrow element */
+.dropbtn .arrow {
+  display: inline-block;
+  margin-left: 0.4rem;
+  transition: transform 0.18s ease;
+}
+
+.dropbtn .arrow::before {
+  content: "▾";
+  display: inline-block;
+  line-height: 1;
+  transform-origin: center;
+  transition: transform 0.18s ease;
+}
+
+/* submenu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  min-width: 180px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  border-radius: 8px;
+  z-index: 40;
+  padding: 0.25rem 0;
+}
+
+/* submenu links */
+.dropdown-content a {
+  display: block;
+  padding: 0.6rem 1rem;
+  color: #1e293b;
+  text-align: center;
+  font-weight: 500;
+}
+.dropdown-content a:hover {
+  background-color: #2563eb;
+  color: #fff;
+}
+
+/* Desktop Hover behavior */
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
+  display: block;
+}
+
+/* arrow flips on hover (desktop) */
+.dropdown:hover .dropbtn .arrow::before {
+  transform: rotate(180deg);
+}
+
+/* hamburger (hidden on desktop) */
+.hamburger {
+  display: none;
+  width: 34px;
+  height: 28px;
+  border: none;
+  background: transparent;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  cursor: pointer;
+  z-index: 50;
+}
+
+.hamburger span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 2px;
+  transition: transform 0.25s ease, opacity 0.2s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(4px, 4px);
+}
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(4px, -4px);
+}
+
+/* responsive: mobile menu */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    color: #fff;
+  }
+
+  .app-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 1rem;
+    background: #1e293b;
+    padding: 1rem;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-width: 220px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+    z-index: 40;
+  }
+
+  .app-nav.open {
+    display: flex;
+  }
+
+  .app-nav .dropdown-content {
+    position: static;
+    transform: none;
+    box-shadow: none;
+    background: transparent;
+    min-width: unset;
+    padding: 0;
+  }
+
+  .app-nav .dropdown-content a {
+    padding: 0.5rem 0;
+    color: #f1f5f9;
+    text-align: left;
+  }
+
+  .app-nav a,
+  .dropbtn {
+    padding: 0.6rem 0;
+  }
+
+  .dropdown.open .dropdown-content {
+    display: block;
+  }
+
+  .dropdown.open .dropbtn .arrow::before {
+    transform: rotate(180deg);
+  }
+}
+
+/* ====== Articles Section ====== */
+.articles-preview {
+  padding: 4rem 1.5rem;
+  text-align: center;
+  background: #fff;
+}
+
+.articles-preview h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  color: #000;
+}
+
+.articles-preview h2 {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  color: #444;
+  font-weight: 400;
+}
+
+/* grid layout */
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+/* article card */
+.article-box {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+  max-width: 340px;
+  text-align: left;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.article-box:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* article image */
+.article-box img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* text content inside card */
+.article-box h3 {
+  font-size: 1.25rem;
+  color: #000;
+  margin: 1rem;
+}
+
+.article-box p {
+  font-size: 0.95rem;
+  color: #333;
+  margin: 0 1rem 1rem;
+  line-height: 1.4;
+}
+
+/* button */
+.article-btn {
+  display: inline-block;
+  margin: 0 1rem 1.2rem;
+  padding: 0.55rem 1rem;
+  background: #000;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.25s ease;
+}
+
+.article-btn:hover {
+  background: #333;
+}
+
+/* "More" link container */
+.articles-more {
+  margin-top: 2.5rem;
+}
+
+/* === LANGUAGE SWITCHER === */
+.select {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  background: #f1f5f9;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #1e293b;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.select:hover {
+  background: #e0f2fe;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(37,99,235,0.25);
+}
+
+.select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.35);
+}

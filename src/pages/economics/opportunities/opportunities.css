@@ -1,0 +1,75 @@
+.opp-wrap {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.opp-main-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.opp-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.opp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.opp-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.opp-card:hover {
+  transform: translateY(-5px);
+}
+
+.opp-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.opp-body {
+  padding: 1rem 1.2rem;
+  text-align: left;
+}
+
+.opp-body h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.opp-body p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.opp-btn {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  background: #0077cc;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.opp-btn:hover {
+  background: #005fa3;
+}

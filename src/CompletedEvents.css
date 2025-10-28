@@ -1,0 +1,96 @@
+.completed-events {
+  padding: 3rem 0;
+}
+
+.events-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #000000;
+}
+
+/* Grid layout */
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+/* Card */
+.event-card {
+  background: #979797;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(39, 39, 39, 0.35);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 28px rgba(51, 51, 51, 0.45);
+}
+
+/* Image */
+.event-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Content */
+.event-content {
+  padding: 1rem 1rem 1.25rem;
+  color: #000000;
+  flex: 1;
+}
+
+.event-title {
+  font-size: 1.1rem;
+  color: #000000;
+  margin-bottom: 0.5rem;
+}
+
+.event-desc {
+  font-size: 0.95rem;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.event-info {
+  font-size: 0.9rem;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+/* Button */
+.event-button {
+  display: inline-block;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 0.55rem 1rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+}
+.event-button:hover {
+  background: #000000;
+  color: #fffefef5;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .events-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .events-grid {
+    grid-template-columns: 1fr;
+  }
+  .event-image {
+    height: 160px;
+  }
+}

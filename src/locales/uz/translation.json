@@ -1,0 +1,286 @@
+{
+  "app": { 
+  "title": "APonomics",
+  "logoAlt": "APonomics Logotipi",
+  "menu_open": "Menyuni ochish",
+  "menu_close": "Menyuni yopish",
+  "nav": {
+    "home": "Bosh sahifa",
+    "economics": "Iqtisodiyot",
+    "concept_covers": "Koncepsiyalar",
+    "notebook": "Daftar",
+    "opportunities": "Imkoniyatlar",
+    "podcasts": "Podkastlar",
+    "articles": "Maqolalar",
+    "about": "Haqida",
+    "about_us": "Biz haqimizda",
+    "our_team": "Jamoamiz"
+  }
+},
+  "hero": {
+  "title": "APonomics’ga xush kelibsiz!",
+  "subtitle": "Iqtisodiyot faqat bir fan emas — u dunyomizdagi qaror qabul qilish tili. APonomics’da biz murakkab g‘oyalarni soddalashtiramiz, muhim tushunchalarni ajratib ko‘rsatamiz va sizni AP Economics’da muvaffaqiyat qozonishingiz hamda kelajakdagi katta imkoniyatlarga tayyor bo‘lishingiz uchun bosqichma-bosqich yo‘naltiramiz."
+},
+
+
+  "completedEvents": {
+  "ariaLabel": "Yakunlangan tadbirlar",
+  "title": "Yakunlangan tadbirlar",
+  "event_date_label": "Sana:",
+  "event_location_label": "Joylashuv:",
+  "details_button": "Batafsil",
+  "events": {
+    "1": {
+      "title": "Nomdosh seminar",
+      "description": "AP o‘quvchilari uchun talab va taklif tamoyillari bo‘yicha amaliy seminar",
+      "location": "Toshkent"
+    },
+    "2": {
+      "title": "Global savdo konferensiyasi",
+      "description": "Xalqaro savdo va iqtisodiy siyosatlarni o‘rganish",
+      "location": "Samarqand"
+    },
+    "3": {
+      "title": "Iqtisodiy tadqiqot uchrashuvi",
+      "description": "So‘nggi iqtisodiy tadqiqotlar va xulosalarni muhokama qilish",
+      "location": "Nukus"
+    },
+    "4": {
+      "title": "AP Iqtisodiyot Bootcamp",
+      "description": "Makro va mikroiqtisodiyot bo‘yicha intensiv tayyorgarlik",
+      "location": "Buxoro"
+    },
+    "5": {
+      "title": "Moliya va investitsiya seminari",
+      "description": "Moliyaviy asoslar va investitsiya strategiyalarini o‘rganish",
+      "location": "Toshkent"
+    }
+  }
+}
+,
+  "volunteering": {
+  "ariaLabel": "Ko‘ngillilik imkoniyati",
+  "title": "Ko‘ngillilik imkoniyati",
+  "subtext": "Jamoamizning bir qismiga aylanish uchun quyidagi formani to‘ldiring.",
+  "placeholders": {
+    "firstName": "Ismingiz",
+    "lastName": "Familiyangiz",
+    "email": "Email",
+    "skills": "Qobiliyat va ko‘nikmalaringiz haqida yozing"
+  },
+  "submit": "Yuborish"
+},
+
+  "about": {
+  "title": "Biz haqimizda",
+  "subtitle": "APonomics ortidagi hikoya",
+  "paragraphs": {
+    "p1": "Xush kelibsiz APonomics platformasiga! Bu o‘quvchilar tomonidan, o‘quvchilar uchun yaratilgan loyiha. Bizning maqsadimiz iqtisodiyotni har bir o‘rganuvchi uchun sodda, tushunarli va qiziqarli qilishdir.",
+    "p2": "Ushbu loyihani boshlashimiz sababi – iqtisodiyot to‘siq emas, balki dunyoni tushunishga yordam beradigan vosita bo‘lishi kerak, degan ishonchimizdir. Taklif va talabdan tortib xalqaro savdogacha, maqolalarimiz va resurslarimiz tushunchalarni sodda va amaliy misollarda tushuntirib beradi.",
+    "p3": "Uzoq muddatli maqsadimiz – APonomics’ni o‘quvchilar uchun imtihonlarga tayyorgarlik ko‘rish, haqiqiy hayotiy misollarni o‘rganish va bilim almashishlari mumkin bo‘lgan qo‘llab-quvvatlovchi hamjamiyatga aylantirish."
+  }
+},
+
+  
+"team": {
+  "title": "Bizning jamoa",
+  "subtitle": "APonomics ortidagi odamlar",
+  "members": {
+    "1": {
+      "name": "Alice Johnson",
+      "role": "Frontend dasturchi",
+      "bio": "Interaktiv va foydalanuvchiga qulay veb-tajribalar yaratishga qiziqadi.",
+      "img": "member1.jpg"
+    },
+    "2": {
+      "name": "Bob Smith",
+      "role": "Backend dasturchi",
+      "bio": "Server tomoni mantiqi, ma’lumotlar bazalari va unumdorlikni optimallashtirishga e’tibor qaratadi.",
+      "img": "member2.jpg"
+    },
+    "3": {
+      "name": "Clara Lee",
+      "role": "Kontent yozuvchi",
+      "bio": "Talabalarga iqtisodiyotni oddiy qilib tushuntirish uchun aniq va qiziqarli maqolalar yozadi.",
+      "img": "member3.jpg"
+    }
+  }
+},
+
+  "articles": {
+  "component": {
+    "title": "Maqolalar",
+    "subtitle": "Asosiy mavzular va o‘quv resurslarini o‘rganing",
+    "items": [
+      {
+        "id": "supply-demand",
+        "title": "Taklif va talab asoslari",
+        "description": "Bozor qanday qilib narx va miqdorlarni belgilashini tushuntirib beruvchi sodda qo‘llanma — APonomics o‘quvchilari uchun muhim."
+      },
+      {
+        "id": "global-trade",
+        "title": "Jahon savdosi soddalashtirilgan",
+        "description": "Savdoning iqtisodiyotlarni qanday shakllantirishi va imkoniyatlar yaratishini ko‘rsatadigan qisqa, haqiqiy misollar."
+      }
+    ],
+    "read_more": "Batafsil o‘qish →"
+  }
+  },
+"page": {
+  "title": "Barcha Maqolalar",
+  "articles": {
+    "1": {
+      "title": "Sun’iy Intellektning O‘sishi",
+      "content": "Sun’iy intellekt (SI) sog‘liqni saqlashdan tortib moliyagacha bo‘lgan sohalarni o‘zgartirdi. Ushbu maqolada biz SI kelajakni qanday shakllantirayotganini va u keyingi avlod dasturchilari hamda bizneslari uchun qanday imkoniyatlar yaratishini o‘rganamiz."
+    },
+    "2": {
+      "title": "Dasturlashni Erta O‘rganish Nega Muhim?",
+      "content": "Yoshligidan dasturlashni boshlash muammo yechish ko‘nikmalarini va mantiqiy fikrlashni rivojlantiradi. Python’dan JavaScript’gacha, kod yozish talabalarni haqiqiy loyihalar yaratishga va texnologiyaga ishonch hosil qilishga undaydi."
+    },
+    "3": {
+      "title": "Veb Dasturlashning Kelajagi",
+      "content": "React, Next.js va Tailwind CSS kabi framework’larning ommalashishi bilan veb dasturlash tezroq, kengaytiriladigan va yuqori interaktiv ilovalarga qarab bormoqda. Ushbu maqolada yaqin yillarning trendlariga nazar tashlaymiz."
+    }
+  },
+  "toggle_open": "▲",
+  "toggle_closed": "▼"
+},
+  "conceptCovers": {
+  "header": "APonomics — Tushunchalar Qoplamalari",
+  "search_placeholder": "Tushunchalarni qidiring (masalan: 'Elastiklik', 'Inflyatsiya')",
+  "result_singular": "natija",
+  "result_plural": "natijalar",
+  "micro_title": "Mikroiqtisodiyot",
+  "macro_title": "Makroiqtisodiyot",
+  "read_more": "Davomini o‘qish →",
+  "empty_micro": "Mikroiqtisodiyot bo‘yicha natija yo‘q.",
+  "empty_macro": "Makroiqtisodiyot bo‘yicha natija yo‘q.",
+  "micro_concepts": [
+    "Xulq-atvor iqtisodiyotiga kirish",
+    "Ishlab chiqarish imkoniyatlari egri chizig‘i",
+    "Masshtab iqtisodiyoti",
+    "Talabning narx elastikligi",
+    "Tashqi ta’sirlar",
+    "Asimmetrik axborotga kirish",
+    "Atrof-muhit iqtisodiyoti",
+    "Narx belgilovchi omillar",
+    "Uy xo‘jaliklarining xarajat, tejash va qarz olishga ta’sir etuvchi omillar",
+    "Kapital va mehnatga asoslangan ishlab chiqarishlarni taqqoslash",
+    "Ijobiy va normativ bayonotlar",
+    "Ratsional qaror qabul qilish",
+    "Meritor tovarlar",
+    "Daromad va xarajatlar aylanishi",
+    "Biznes tashkilotlari turlari",
+    "Talab va taklif",
+    "Qo‘shilishlar (Mergers)",
+    "Monopoliyalar",
+    "Tijorat banklari",
+    "Kasaba uyushmalari",
+    "Tovarlarga ayirboshlash (Barter)",
+    "Ixtisoslashuv",
+    "Iqtisodiy muammo",
+    "Ishlab chiqarish omillari",
+    "Imkoniyat qiymati"
+  ],
+  "macro_concepts": [
+    "Globallashuv",
+    "Biznes sikli",
+    "Fillips egri chizig‘i",
+    "Davlat aralashuvi",
+    "Iqtisodiy o‘sish",
+    "Qashshoqlik",
+    "Milliy ixtisoslashuv",
+    "Valyuta kurslari",
+    "Inflyatsiya va deflyatsiya",
+    "To‘lov balansi",
+    "Umumiy talab va umumiy taklif",
+    "Iqtisodiyotlarning rivojlanishi",
+    "Taklif tarafidan siyosat",
+    "Markaziy banklar",
+    "Pul-kredit siyosati",
+    "Fiskal siyosat",
+    "Iqtisodiyot turlari",
+    "Xalqaro savdo"
+  ]
+},
+
+
+
+  "notebook": {
+  "verticalTitle": "Oʻzbek iqtisodiyoti",
+  "headline": "Daftar",
+  "sub": "Kerakli barcha bilimlar qisqa yozuvlar shaklida jamlangan. Toza dizayn, chop etishga qulay va tezda koʻzdan kechirish mumkin.",
+  "ctaText": "Daftardan oʻqish",
+  "ctaLink": "/Experiment/files/AS+Microeconomics+Notes.pdf",
+  "imageAlt": "Daftar va qalamning yaqin tasviri",
+  "overlayTitle": "Daftar",
+  "overlaySub": "Yumshoq yorugʻlikda daftar estetikasining yaqin tasviri — oʻqish yoki eslatmalar sahifalari uchun zoʻr."
+}
+,
+
+  
+  
+ 
+
+  "opportunities": {
+    "mainTitle": "Imkoniyatlar",
+    "subtitle": "Har qanday yoshdagi iqtisodchilar uchun.",
+    "categories": {
+      "1": {
+        "id": "1",
+        "title": "Kitoblar",
+        "desc": "Asosiy iqtisodiyot kitoblarini o‘qib bilimlaringizni kengaytiring.",
+        "img": "books",
+        "link": "#books"
+      },
+      "2": {
+        "id": "2",
+        "title": "Kurslar",
+        "desc": "Iqtisodiyot va texnologiya bo‘yicha ko‘nikmalaringizni mustahkamlash uchun onlayn va oflayn kurslarni toping.",
+        "img": "courses",
+        "link": "#courses"
+      },
+      "3": {
+        "id": "3",
+        "title": "Musobaqalar",
+        "desc": "Butun dunyo bo‘ylab olimpiadalar, esse tanlovlari va case challenge’larda ishtirok eting.",
+        "img": "competitions",
+        "link": "#competitions"
+      }
+    },
+    "explore_template": "{{category}} bo‘yicha ko‘proq"
+  },
+
+
+
+  "podcasts": {
+  "title": "Podkast va Video Epizodlar",
+  "thumbnail_alt_template": "{{title}} uchun miniatyura",
+  "open_on_youtube": "YouTube’da ochish",
+  "play": "O‘ynatish",
+  "episodes": [
+    {
+      "id": "1",
+      "title": "01-epizod — APonomics yaratilishi",
+      "youtubeId": "dQw4w9WgXcQ",
+      "description": "APonomics tarixi, texnologiyalar va mahsulot qarorlari haqida suhbatlashamiz.",
+      "tags": ["texnologiya", "react", "loyiha"]
+    },
+    {
+      "id": "2",
+      "title": "02-epizod — Frontend bo‘yicha maslahatlar",
+      "youtubeId": "9bZkp7q19f0",
+      "description": "Tez frontend maslahatlari: ishlash tezligi, Vite va zamonaviy uslublar.",
+      "tags": ["frontend", "vite", "samaradorlik"]
+    },
+    {
+      "id": "3",
+      "title": "03-epizod — Kasb tanlash bo‘yicha maslahatlar",
+      "youtubeId": "3JZ_D3ELwOQ",
+      "description": "Universitetga hujjat topshirishga tayyorgarlik va ajralib turadigan loyihalarni yaratish.",
+      "tags": ["kasb", "universitet"]
+    }
+  ]
+}
+
+}

@@ -1,0 +1,278 @@
+{
+  "app": {
+    "title": "APonomics",
+    "logoAlt": "APonomics Logo",
+    "menu_open": "Open menu",
+    "menu_close": "Close menu",
+    "nav": {
+      "home": "Home",
+      "economics": "Economics",
+      "concept_covers": "Concept Covers",
+      "notebook": "Notebook",
+      "opportunities": "Opportunities",
+      "podcasts": "Podcasts",
+      "articles": "Articles",
+      "about": "About",
+      "about_us": "About Us",
+      "our_team": "Our Team"
+    }
+  },
+
+  "hero": {
+    "title": "Welcome to APonomics!",
+    "subtitle": "Economics is not just a subject — it’s the language of decision-making in our world. At APonomics, we simplify complex ideas, highlight key concepts, and guide you step by step to succeed in AP Economics while preparing you for bigger opportunities ahead."
+  },
+
+  "completedEvents": {
+    "ariaLabel": "Completed events",
+    "title": "Completed Events",
+    "event_date_label": "Date:",
+    "event_location_label": "Location:",
+    "details_button": "Details",
+    "events": [
+      {
+        "id": 1,
+        "title": "Eponymous Workshop",
+        "description": "Hands-On Workshop on Supply and Demand Principles for AP Students",
+        "date": "2025-10-12",
+        "location": "Tashkent"
+      },
+      {
+        "id": 2,
+        "title": "Global Trade Conference",
+        "description": "Exploring international trade and economic policies",
+        "date": "2025-09-22",
+        "location": "Samarkand"
+      },
+      {
+        "id": 3,
+        "title": "Economic Research Meetup",
+        "description": "Discussing recent economic studies and findings",
+        "date": "2025-11-05",
+        "location": "Nukus"
+      },
+      {
+        "id": 4,
+        "title": "AP Economics Bootcamp",
+        "description": "Intensive training on macro and microeconomics",
+        "date": "2025-08-18",
+        "location": "Bukhara"
+      },
+      {
+        "id": 5,
+        "title": "Finance & Investment Seminar",
+        "description": "Learn the basics of finance and investment strategies",
+        "date": "2025-12-01",
+        "location": "Tashkent"
+      }
+    ]
+  },
+
+
+  "volunteering": {
+    "ariaLabel": "Opportunity for volunteering",
+    "title": "Opportunity for volunteering",
+    "subtext": "Fill out the form below to become part of our team.",
+    "placeholders": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "skills": "Write about your abilities and skills"
+    },
+    "submit": "Send"
+  },
+
+  "about": {
+    "title": "About Us",
+    "subtitle": "The story behind APonomics",
+    "paragraphs": {
+      "p1": "Welcome to APonomics, a platform built by students, for students. Our mission is to make economics easier, clearer, and more engaging for learners everywhere.",
+      "p2": "We started this project because we believe economics should not feel like a barrier but rather a tool to understand the world. From supply and demand to global trade, our articles and resources break down concepts into simple, practical insights.",
+      "p3": "Our long-term goal is to grow APonomics into a supportive community of learners, where students can prepare for exams, explore real-world cases, and share knowledge freely."
+    }
+  },
+
+  "team": {
+  "title": "Our Team",
+  "subtitle": "The people behind APonomics",
+  "members": {
+    "1": {
+      "name": "Alice Johnson",
+      "role": "Frontend Developer",
+      "bio": "Passionate about building interactive and user-friendly web experiences.",
+      "img": "member1.jpg"
+    },
+    "2": {
+      "name": "Bob Smith",
+      "role": "Backend Developer",
+      "bio": "Focused on server-side logic, databases, and performance optimization.",
+      "img": "member2.jpg"
+    },
+    "3": {
+      "name": "Clara Lee",
+      "role": "Content Writer",
+      "bio": "Writes clear and engaging articles to make economics simple for students.",
+      "img": "member3.jpg"
+    }
+  }
+},
+
+  "articles": {
+    "component": {
+      "title": "Articles",
+      "subtitle": "Explore key topics and study resources",
+      "items": [
+        {
+          "id": "supply-demand",
+          "title": "Supply & Demand Basics",
+          "description": "A clear primer on how markets find prices and quantities — essential for APonomics learners."
+        },
+        {
+          "id": "global-trade",
+          "title": "Global Trade Simplified",
+          "description": "Short, real-world cases that show how trade shapes economies and creates opportunities."
+        }
+      ],
+      "read_more": "Read More →"
+    }
+  },
+"page": {
+    "title": "All Articles",
+    "articles": {
+      "1": {
+        "title": "The Rise of Artificial Intelligence",
+        "content": "Artificial Intelligence (AI) has transformed industries from healthcare to finance. In this article, we explore how AI is shaping the future and what opportunities it brings for the next generation of developers and businesses."
+      },
+      "2": {
+        "title": "Why Learning Programming Early Matters",
+        "content": "Starting programming at a young age develops problem-solving skills and logical thinking. From Python to JavaScript, coding empowers students to create real-world projects and gain confidence in tech."
+      },
+      "3": {
+        "title": "The Future of Web Development",
+        "content": "With the rise of frameworks like React, Next.js, and Tailwind CSS, web development is moving toward faster, more scalable, and highly interactive applications. This article looks into trends for the coming years."
+      }
+    },
+    "toggle_open": "▲",
+    "toggle_closed": "▼"
+  },
+  "conceptCovers": {
+    "header": "APonomics — Concept Covers",
+    "search_placeholder": "Search concepts (e.g. 'Elasticity', 'Inflation')",
+    "result_singular": "result",
+    "result_plural": "results",
+    "micro_title": "Microeconomics",
+    "macro_title": "Macroeconomics",
+    "read_more": "Read More →",
+    "empty_micro": "No microeconomics results.",
+    "empty_macro": "No macroeconomics results.",
+    "micro_concepts": [
+      "Introduction to Behavioral Economics",
+      "Production Possibility Curve",
+      "Economies of Scale",
+      "Price Elasticity of Demand",
+      "Externalities",
+      "Introduction to Asymmetric Information",
+      "Environmental Economics",
+      "Price Determinants",
+      "Influences on Household Spending, Saving, and Borrowing",
+      "Capital and Labour Intensive Productions Comparison",
+      "Positive and Normative Statements",
+      "Rational Decision Making",
+      "Merit Goods",
+      "The Circular Flow of Income and Spending",
+      "Types of Business Organizations",
+      "Demand and Supply",
+      "Mergers",
+      "Monopolies",
+      "Commercial Banks",
+      "Trade Unions",
+      "Bartering",
+      "Specialization",
+      "The Economic Problem",
+      "Factors of Production",
+      "Opportunity Cost"
+    ],
+    "macro_concepts": [
+      "Globalisation",
+      "Business Cycle",
+      "Phillips Curve",
+      "Government Intervention",
+      "Economic Growth",
+      "Poverty",
+      "National Specialization",
+      "Foreign Exchange Rates",
+      "Inflation and Deflation",
+      "Balance of Payments",
+      "Aggregate Demand & Aggregate Supply",
+      "Development of Economies",
+      "Supply Side Policy",
+      "Central Banks",
+      "Monetary Policy",
+      "Fiscal Policy",
+      "Types of Economies",
+      "International Trade"
+    ]
+  },
+
+  
+
+  "opportunities": {
+    "mainTitle": "Opportunities",
+    "subtitle": "For economists of all ages.",
+    "categories": {
+      "1": {
+        "id": "1",
+        "title": "Books",
+        "desc": "Dive into essential economics books and expand your knowledge base.",
+        "img": "books",
+        "link": "#books"
+      },
+      "2": {
+        "id": "2",
+        "title": "Courses",
+        "desc": "Find online and offline courses to strengthen your economics and tech skills.",
+        "img": "courses",
+        "link": "#courses"
+      },
+      "3": {
+        "id": "3",
+        "title": "Competitions",
+        "desc": "Participate in Olympiads, essay contests, and case challenges worldwide.",
+        "img": "competitions",
+        "link": "#competitions"
+      }
+    },
+    "explore_template": "Explore {{category}}"
+  },
+
+  "podcasts": {
+  "title": "Podcast & Video Episodes",
+  "thumbnail_alt_template": "{{title}} thumbnail",
+  "open_on_youtube": "Open on YouTube",
+  "play": "Play",
+  "episodes": [
+    {
+      "id": "1",
+      "title": "Episode 01 — Building APonomics",
+      "youtubeId": "dQw4w9WgXcQ",
+      "description": "We discuss the origins of APonomics, tech stack, and product decisions.",
+      "tags": ["tech", "react", "project"]
+    },
+    {
+      "id": "2",
+      "title": "Episode 02 — Frontend Tips",
+      "youtubeId": "9bZkp7q19f0",
+      "description": "Fast frontend tips: performance, Vite, and modern patterns.",
+      "tags": ["frontend", "vite", "performance"]
+    },
+    {
+      "id": "3",
+      "title": "Episode 03 — Career Advice",
+      "youtubeId": "3JZ_D3ELwOQ",
+      "description": "How to prepare university applications and build projects that stand out.",
+      "tags": ["career", "university"]
+    }
+  ]
+}
+
+}

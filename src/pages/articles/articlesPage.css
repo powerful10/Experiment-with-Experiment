@@ -1,0 +1,54 @@
+/* src/pages/articles/articles.page.css */
+
+.articles-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.articles-title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #222;
+}
+
+.article-full {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 15px 0;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.article-full:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+.article-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.article-heading {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.toggle-icon {
+  font-size: 20px;
+  color: #666;
+  transition: transform 0.3s;
+}
+
+.article-content {
+  margin-top: 10px;
+  line-height: 1.6;
+  color: #444;
+}

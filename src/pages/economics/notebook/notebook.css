@@ -1,0 +1,133 @@
+/* src/Notebook.css */
+:root{
+  --left-bg: #ffd900;
+  --accent: #000000;
+  --text: #111;
+  --gap: clamp(20px, 3vw, 60px);
+  --max-width: 1200px;
+}
+
+/* Reset / basics */
+*{box-sizing:border-box}
+html,body,#root{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;color:var(--text)}
+
+.notebook-split{
+  display:flex;
+  min-height:100vh;
+  align-items:stretch;
+}
+
+/* LEFT */
+.left{
+  flex:1;
+  background:var(--left-bg);
+  padding:calc(var(--gap) * 1.2);
+  display:flex;
+  align-items:center;
+  position:relative;
+}
+.left-inner{
+  max-width:var(--max-width);
+  margin:0 auto;
+}
+
+.vertical-title{
+  font-family:'Playfair Display',serif;
+  font-size:40px;
+  letter-spacing:2px;
+  writing-mode:vertical-rl;
+  transform:rotate(180deg);
+  margin-bottom:20px;
+  font-weight:700;
+  color:var(--text);
+  align-self:flex-start;
+}
+
+.headline{
+  font-family:'Playfair Display',serif;
+  font-size:48px;
+  margin:0 0 12px 0;
+  line-height:1.02;
+  font-weight:700;
+}
+
+.sub{
+  color:#080c49;
+  margin:0 0 28px 0;
+  max-width:60ch;
+}
+
+.cta{
+  display:inline-block;
+  padding:10px 18px;
+  border-radius:8px;
+  background:var(--accent);
+  color:#fff;
+  text-decoration:none;
+  font-weight:600;
+}
+.cta:hover{
+  background-color: #fff;
+  color: #000000;
+}
+
+/* RIGHT (background image) */
+.right{
+  flex:1;
+  position:relative;
+  background-size:cover;
+  background-position:center right;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+/* soft gradient overlay so text is legible */
+.right::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 30%, rgba(0,0,0,0.12) 100%);
+  z-index:1;
+}
+
+.overlay{
+  position:relative;
+  z-index:2;
+  text-align:center;
+  color:#fff;
+  padding:40px;
+}
+
+.page-title{
+  font-family:'Playfair Display',serif;
+  font-size:56px;
+  margin:0;
+  text-shadow:0 6px 18px rgba(0,0,0,0.25);
+}
+
+.page-sub{
+  margin-top:10px;
+  opacity:0.95;
+}
+
+/* RESPONSIVE */
+@media (max-width:900px){
+  .notebook-split{flex-direction:column}
+
+  .right{
+    height:40vh;
+    background-position:center center;
+  }
+
+  .vertical-title{
+    writing-mode:horizontal-tb;
+    transform:none;
+    font-size:20px;
+    margin-bottom:10px;
+  }
+
+  .headline{font-size:28px}
+  .page-title{font-size:32px}
+  .left{padding:calc(var(--gap) * 0.9)}
+}
