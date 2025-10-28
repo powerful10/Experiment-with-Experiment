@@ -4,7 +4,7 @@ import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base:'/Experimenting-with-Experiment/',
+  base:'/Experiment-with-Experiment/',
   plugins: [react()],
   resolve: {
     alias: {
